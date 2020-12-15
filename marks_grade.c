@@ -3,7 +3,7 @@ int main()
 {
     int Physics, Chemistry, Biology, Maths, Computer; 
     float per; 
-    printf("Enter five subjects marks: ");
+    printf("Enter five subjects marks:\nPhysics\nChemistry\nBiology\nMaths\nComputer\n");
     scanf("%d%d%d%d%d", &Physics, &Chemistry, &Biology, &Maths, &Computer);
     per = (Physics + Chemistry + Biology + Maths + Computer) / 5.0;
     printf("Percentage = %.2f\n", per);
